@@ -1,0 +1,13 @@
+header{
+    text-align: center;
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        li {
+                padding: 10px 15px;
+                border: 1px solid blue
+        }
+    }
+
+}
