@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+header .bg-blu {
+  background-color: #0282f9;
+}
+
+header .bg-blu .header-blu {
+  height: 30px;
+  color: white;
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+}
+
+header .links-box {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .links-box .logo {
+  width: 80px;
+}
+
+header .links-box .links {
+  display: flex;
+  gap: 20px;
+}
+
+header .links-box .links a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+header .links-box .button-search {
+  display: flex;
+}
+
+header .links-box .button-search #search {
+  border: 0;
+  border-bottom: 2px solid blue;
+  text-align: end;
+}
+
+header .jumbo {
+  height: 435px;
+  background-image: url("/public/images/jumbotron.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.bg-main {
+  background-color: rgb(34, 34, 34);
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 25px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: calc(16.6666666667% - 20px);
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 70%;
+}
+
+.card h6 {
+  color: white;
+}
+
